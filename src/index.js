@@ -1,1 +1,1 @@
-export {  } from './fixtures/feeTierDistribution';
+export {} from './fixtures/feeTierDistribution';
