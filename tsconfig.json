@@ -24,7 +24,7 @@
     "target": "ESNext",
     "rootDir": "./src",
     "outDir": "./dist",
-    "plugins": [
+    "types": ["@types/node", "cypress.d.ts" ],
       {
         "name": "typescript-eslint-language-service"
       }
@@ -32,7 +32,7 @@
   },
   "include": [
     "src/**/*.ts",
-    "index.d.ts"
+   "./cypress.d.ts"
   ],
   "exclude": [
     "**/node_modules",

@@ -7,6 +7,7 @@ export default defineConfig({
   chromeWebSecurity: false,
   e2e: {
     setupNodeEvents(on, config) {
+      require('@cypress/code-coverage/task')(on, config)
       return {
         ...config,
         // Only enable Chrome.
