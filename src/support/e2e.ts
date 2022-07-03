@@ -1,7 +1,7 @@
 // Import commands.ts using ES2015 syntax:
 import { injected } from './ethereum';
 import assert = require('node:assert');
-import '@cypress/code-coverage/support'
+import '@cypress/code-coverage/support';
 
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
